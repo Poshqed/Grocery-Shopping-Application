@@ -1,0 +1,111 @@
+* {
+        box-sizing: border-box;
+        margin: auto;
+        padding: 0;
+        line-height: 0.7em;
+}
+
+#headerid {
+        width: 100%;
+        background-color: rgba(12, 129, 12, 0.973);
+        border: 0.1px solid rgb(0, 0, 0);
+        height: 70px;
+
+}
+
+.textstyle {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        margin: 15px 0 0 40px;
+
+}
+
+header div h1.textstyle {
+        color: white;
+}
+
+#search-btn {
+        margin: 15px 0 0 30px;
+        width: 230px;
+        height: 30px;
+        border: 0;
+        box-shadow: 1px 1px 1px white, 1px 2px 2px #818181;
+        border-radius: 2px;
+}
+
+.flex-class {
+        display: flex;
+}
+
+.row {
+        flex: 50%;
+}
+
+.column {
+        flex: 50%;
+}
+
+#mainbody {
+        width: 90%;
+        height: 100%;
+        border: 0.1px dotted black;
+}
+
+h1#move {
+        margin: 20px 0 0 20px;
+        font-size: 23px;
+}
+
+#plainwhite {
+        margin: 0 0 0 20px;
+        border: 0.1px dotted black;
+        height: 25px;
+        box-shadow: 1px 1px 1px white 1px 1px 1px gray;
+}
+
+#buttonid {
+        height: 25px;
+        width: 60px;
+        background-color: #0e0d0d;
+        color: white;
+        border: 0.1px dotted black;
+        border-radius: 3px;
+        font-size: 11px;
+        padding: 5px;
+}
+
+#subtopic {
+        margin: 20px;
+        font-size: 23px;
+}
+
+#list {
+        margin: -12px 20px 0 20px;
+        font-size: 11px;
+        font-weight: 300;
+        border: 0.1px dotted black;
+
+
+}
+
+li {
+        list-style: none;
+        padding: 15px;
+        border-bottom: 0.1px dotted black;
+}
+
+li:last-child {
+        border: 0
+}
+
+i {
+        background-color: red;
+        padding: 5px;
+        font-size: 5px;
+        color: white;
+        border-radius: 2px;
+        border: .1px dotted black;
+        box-shadow: 1px 1px 1px white 1px 1px 1px gray;
+        float: right;
+}
